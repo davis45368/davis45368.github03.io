@@ -4,8 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Miko Movil - Contacto</title>
-	<link rel="icon" href="img/logo miko.jpg" type="image/jpg">
+  <title>Conctato</title>
+	<link rel="icon" href="img/logo miko.jpg" type="image/png">
 
   <link rel="stylesheet" href="vendors/bootstrap/bootstrap.min.css">
   <link rel="stylesheet" href="vendors/fontawesome/css/all.min.css">
@@ -52,8 +52,8 @@
             <ul class="nav navbar-nav menu_nav justify-content-end">
               <li class="nav-item"><a class="nav-link" href="index.html">Casa</a></li> 
               <li class="nav-item"><a class="nav-link" href="about.html">Sobre</a></li> 
-              <li class="nav-item"><a class="nav-link" href="services.html">Servicios</a>
-              <li class="nav-item active"><a class="nav-link" href="contact.html">Contactanos</a></li>
+              <li class="nav-item active"><a class="nav-link" href="services.html">Servicios</a>
+              <li class="nav-item"><a class="nav-link" href="contact.html">Contactanos</a></li>
             </ul>
           </div> 
         </div>
@@ -65,11 +65,11 @@
   <!--================ Hero sm Banner start =================-->      
   <section class="hero-banner hero-banner--sm">
     <div class="hero-banner__content text-center">
-      <h1>Contactanos</h1>
+      <h1>Nuestros Servicios </h1>
       <nav aria-label="breadcrumb" class="banner-breadcrumb">
         <ol class="breadcrumb">
           <li class="breadcrumb-item"><a href="#">Casa</a></li>
-          <li class="breadcrumb-item active" aria-current="page">Contactanos</li>
+          <li class="breadcrumb-item active" aria-current="page">Nuestros servicios</li>
         </ol>
       </nav>
     </div>
@@ -77,93 +77,73 @@
   <!--================ Hero sm Banner end =================-->
 
 
-  
-  <!-- ================ contact section start ================= -->
-  <section class="section-margin--large">
+  <section class="section-margin">
     <div class="container">
-      <div class="d-none d-sm-block mb-5 pb-4">
-        <div id="map" style="height: 420px;"></div>
-        <script>
-          function initMap() {
-            var uluru = {lat: -25.363, lng: 131.044};
-            var grayStyles = [
-              {
-                featureType: "all",
-                stylers: [
-                  { saturation: -90 },
-                  { lightness: 50 }
-                ]
-              },
-              {elementType: 'labels.text.fill', stylers: [{color: '#A3A3A3'}]}
-            ];
-            var map = new google.maps.Map(document.getElementById('map'), {
-              center: {lat: -31.197, lng: 150.744},
-              zoom: 9,
-              styles: grayStyles,
-              scrollwheel:  false
-            });
-          }
-          
-        </script>
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDpfS1oRGreGSBU5HHjMmQ3o5NLw7VdJ6I&callback=initMap"></script>
-        
+      <div class="section-intro text-center pb-65px">
+        <h2 class="section-intro__title">Invitacion a conocer Softseguros</h2>
+        <p>Cumplimos con tus sueños y espectativas, te ayudamos a llevar contol sobre tus polizas, pagos, recordar esa fechas especiales entre varias funciones más. </p>
       </div>
-
-
-      <div class="row">
-        <div class="col-md-4 col-lg-3 mb-4 mb-md-0">
-          <div class="media contact-info">
-            <span class="contact-info__icon"><i class="ti-home"></i></span>
-            <div class="media-body">
-              <h3>Colombia</h3>
-              <p>Pereira (Risaralda)</p>
+      <div class="row mb-60px">
+        <div class="col-sm-6 col-lg-4 col-xl-3 mb-5">
+          <div class="card card-subject">
+            <div class="card-subject__img">
+              <img class="card-img rounded-0" src="img/home/subject-1.png" alt="">
+              <div class="card-subject__imgOverlay">
+                <img src="img/home/hover-icon.png" alt="">
+              </div>
             </div>
-          </div>
-          <div class="media contact-info">
-            <span class="contact-info__icon"><i class="ti-headphone"></i></span>
-            <div class="media-body">
-              <h3><a href="tel:454545654">00 (440) 9865 562</a></h3>
-              <p>Lunes a Viernes de 8:00 am a 12:00 pm y 2:00 pm a 6:00 pm</p>
-            </div>
-          </div>
-          <div class="media contact-info">
-            <span class="contact-info__icon"><i class="ti-email"></i></span>
-            <div class="media-body">
-              <h3><a href="mailto:support@colorlib.com">support@colorlib.com</a></h3>
-              <p>Send us your query anytime!</p>
+            <div class="card-subject__body">
+              <h3><a href="#">Educacion</a></h3>
+              <p>Te enseñamos a como utilizar nustros servicio para mejorar tu experiencia</p>
             </div>
           </div>
         </div>
-        <div class="col-md-8 col-lg-9">
-          <form action="#/" class="form-contact contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
-            <div class="row">
-              <div class="col-lg-5">
-                <div class="form-group">
-                  <input class="form-control" name="name" id="name" type="text" placeholder="Enter your name">
-                </div>
-                <div class="form-group">
-                  <input class="form-control" name="email" id="email" type="email" placeholder="Enter email address">
-                </div>
-                <div class="form-group">
-                  <input class="form-control" name="subject" id="subject" type="text" placeholder="Enter Subject">
-                </div>
-              </div>
-              <div class="col-lg-7">
-                <div class="form-group">
-                    <textarea class="form-control different-control w-100" name="message" id="message" cols="30" rows="5" placeholder="Enter Message"></textarea>
-                </div>
+
+        <div class="col-sm-6 col-lg-4 col-xl-3 mb-5">
+          <div class="card card-subject">
+            <div class="card-subject__img">
+              <img class="card-img rounded-0" src="img/home/soporte.png" alt="">
+              <div class="card-subject__imgOverlay">
+                <img src="img/home/hover-icon.png" alt="">
               </div>
             </div>
-            <div class="form-group text-center text-md-right mt-3">
-              <button type="submit" class="button button-contactForm">Send Message</button>
+            <div class="card-subject__body">
+              <h3><a href="#">Soporte</a></h3>
+              <p>Comunicate con nustros equipo de soporte para despejar tus dudas o inconformidades</p>
             </div>
-          </form>
+          </div>
         </div>
-      </div>
-    </div>
+
+        <div class="col-sm-6 col-lg-4 col-xl-3 mb-5">
+          <div class="card card-subject">
+            <div class="card-subject__img">
+              <img class="card-img rounded-0" src="img/home/actualizacion.png" alt="">
+              <div class="card-subject__imgOverlay">
+                <img src="img/home/hover-icon.png" alt="">
+              </div>
+            </div>
+            <div class="card-subject__body">
+              <h3><a href="#">Actualizaciones</a></h3>
+              <p>Mantenemos en constante desarrollo para mejorar cada dia más nuestra opciones.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-lg-4 col-xl-3 mb-5">
+            <div class="card card-subject">
+              <div class="card-subject__img">
+                <img class="card-img rounded-0" src="img/home/subject-4.png" alt="">
+                <div class="card-subject__imgOverlay">
+                  <img src="img/home/hover-icon.png" alt="">
+                </div>
+              </div>
+              <div class="card-subject__body">
+                <h3><a href="#"></a>Almacenamiento</h3>
+                <p>Nuestro software cuenta con tres servidores en los cuales quedan almacenados toda tu inforcion, sin nesecidad de enredarte con documentos es tu oficina. </p>
+              </div>
+            </div>
+          </div>
   </section>
-	<!-- ================ contact section end ================= -->
-
 
 
 
@@ -175,15 +155,14 @@
       <div class="row">
         <div class="col-lg-3  col-md-6 col-sm-6">
           <div class="single-footer-widget">
-            <h6>About Agency</h6>
+            <h6>Acerca de nuestra empresa</h6>
             <p>
-              The world has become so fast paced that people don’t want to stand by reading a page of information, they would much rather look at a presentation and understand the message. It has come to a point 
-            </p>
+              El mundo os ofreece las herramientas para crear soluciones, y mejorar nuestra calidad de vida.
           </div>
         </div>
         <div class="col-lg-3 col-md-6 col-sm-6">
           <div class="single-footer-widget">
-            <h6>Navigation Links</h6>
+            <h6>Links de Navegación</h6>
             <div class="row">
               <div class="col">
                 <ul>
@@ -199,15 +178,10 @@
               </div>										
             </div>							
           </div>
-        </div>							
-       
-    <div class="footer-bottom">
-      <div class="container">
-        <div class="row align-items-center">
-          <p class="col-lg-8 col-sm-12 footer-text m-0 text-center text-lg-left">
+        </div>
 
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> Todos los derechos reservados  </a>
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> Todos los derechos reservados </a>
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
           <div class="col-lg-4 col-sm-12 footer-social text-center text-lg-right">
             <a href="#"><i class="fab fa-facebook-f"></i></a>
@@ -221,15 +195,10 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> Todos
   </footer>
   <!-- ================ End footer Area ================= -->
 
-
-  
   <script src="vendors/jquery/jquery-3.2.1.min.js"></script>
   <script src="vendors/bootstrap/bootstrap.bundle.min.js"></script>
   <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
   <script src="vendors/Magnific-Popup/jquery.magnific-popup.min.js"></script>
-  <script src="js/jquery.form.js"></script>
-  <script src="js/jquery.validate.min.js"></script>
-  <script src="js/contact.js"></script>
   <script src="js/jquery.ajaxchimp.min.js"></script>
   <script src="js/mail-script.js"></script>
   <script src="js/main.js"></script>
