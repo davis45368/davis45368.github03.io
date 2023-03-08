@@ -40,7 +40,7 @@ h3,.h3{font-size:18px;font-weight:700}
 .header_area .navbar-social{min-width:95px;float:right}.header_area .navbar-social li{margin-right:12px}
 .header_area .navbar-social li i,.header_area .navbar-social li span{font-size:13px;color:#242429}
 .header_area .navbar-social li:last-child{margin-right:0}
-.header_area .navbar-social li a:hover i,.header_area .navbar-social li span{color:#FB5EC0}
+.header_area .navbar-social li a:hover i,.header_area .navbar-social li span{color:#ffffff}
 .header_area .menu_nav{width:100%}
 .header_area .navbar{background:transparent;padding:5px 0;border:0px;border-radius:0px;width:100%}
 @media (min-width: 991px)
