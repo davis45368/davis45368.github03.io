@@ -27,7 +27,7 @@ h3,.h3{font-size:18px;font-weight:700}
 .header-top__info li{display:inline-block;font-size:14px;color:#fff;margin-right:25px}
 .header-top__info li:last-child{margin-right:0}
 .header-top__info li a{color:#fff}
-.header-top__info li i,.header-top__info li span{color:#FB5EC0;padding-right:5px}
+.header-top__info li i,.header-top__info li span{color:#ffffff;padding-right:5px}
 .header-top__social li{display:inline-block}
 .header-top__social li a{font-size:14px;color:white;-webkit-transition:all 0.3s ease 0s;-moz-transition:all 0.3s ease 0s;-o-transition:all 0.3s ease 0s;transition:all 0.3s ease 0s}
 .header-top__social li a:hover{color:white}
