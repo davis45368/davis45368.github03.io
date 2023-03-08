@@ -31,7 +31,7 @@ h3,.h3{font-size:18px;font-weight:700}
 .header-top__social li{display:inline-block}
 .header-top__social li a{font-size:14px;color:white;-webkit-transition:all 0.3s ease 0s;-moz-transition:all 0.3s ease 0s;-o-transition:all 0.3s ease 0s;transition:all 0.3s ease 0s}
 .header-top__social li a:hover{color:white}
-.header-top__social li::after{content:"|";color:#FB5EC0;padding-left:8px;padding-right:8px;font-weight:400}
+.header-top__social li::after{content:"|";color:white;padding-left:8px;padding-right:8px;font-weight:400}
 .header-top__social li:last-child::after{display:none}
 .header_area{width:100%;z-index:99;transition:background 0.4s, all 0.3s linear}
 .header_area .navbar-right{min-width:200px;text-align:right}
